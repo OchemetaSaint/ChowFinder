@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Header from './componnet/header/header';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Fix the import statement
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Fix the import statement
 import Aboutus from './componnet/about us/About us';
 import Home from './componnet/Home/home';
 import Partner from './componnet/authentification/partner';
